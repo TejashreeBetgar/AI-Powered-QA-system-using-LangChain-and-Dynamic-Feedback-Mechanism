@@ -20,7 +20,7 @@ Download the FAQ Assistant files:
 
 bash
 Copy code
-git clone https://github.com/your-repo/faq-assistant.git
+git clone https://github.com/TejashreeBetgar/AI-Powered-QA-system-using-LangChain-and-Dynamic-Feedback-Mechanism.git
 cd faq-assistant
 Step 3: Install Dependencies
 Run this command to install all the required tools:
