@@ -29,27 +29,23 @@ Ensure you have Python 3.10 or later installed. You can download it from [python
 ### Step 2: Clone the Project
 Download the FAQ Assistant files by running the following commands:
 
-```bash
 git clone https://github.com/TejashreeBetgar/AI-Powered-QA-system-using-LangChain-and-Dynamic-Feedback-Mechanism.git
 cd AI-Powered-QA-system-using-LangChain-and-Dynamic-Feedback-Mechanism
-Step 3: Install Dependencies
+
+### Step 3: Install Dependencies
 Install all the required tools by running:
 
-bash
-Copy code
 pip install streamlit
 pip install faiss-cpu
 pip install sentence-transformers
 pip install google-generativeai
 pip install pyngrok
-Step 4: Add Your Google API Key
+
+### Step 4: Add Your Google API Key
 Get a Google Generative AI API key and add it to the code. Replace "your-google-palm-api-key" with your actual key in the app.py file.
 
 🏃‍♂️ Running the App
 Start the app by executing:
-
-bash
-Copy code
 streamlit run app.py
 Open your web browser and navigate to http://localhost:8501.
 
@@ -62,13 +58,10 @@ Create a CSV file with two columns:
 Question: The common question someone might ask.
 Answer: The response to the question.
 Save the file as codebasics_faqs.csv and place it in the project folder.
+
 🛠️ Troubleshooting
 Nothing Happens When I Run the App: Ensure Python and all required tools are installed correctly.
-
 Getting Incorrect Answers: Add more relevant FAQs to the dataset for better results.
-
 Port is Busy: Use a different port by running:
 
-bash
-Copy code
 streamlit run app.py --server.port=8502
